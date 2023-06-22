@@ -27,7 +27,7 @@ class CommentBot:
         #Set options and chdr pth
         self.PATH = 'REQS/chromedriver.exe'
         self.options = Options()
-        self.options.add_argument("user-data-dir=C:/users/shriv/pycharmprojects/youtube_comment_bot/venv/REQS")
+        self.options.add_argument("user-data-dir=path_to_store_user_data")
         # self.options.add_experimental_option("useAutomationExtension", False)
         self.options.add_experimental_option("excludeSwitches", ["enable-automation", "disable-popup-blocking"])
         self.options.add_argument("--log-level-3")
